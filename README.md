@@ -23,3 +23,12 @@ Using the income distribution for each neighborhood, the spending power of each 
 
 The next step was to visualize the location of the various postal codes within Toronto to obtain a general understanding the location. As seen from the map, the postal codes are densely clustered near downtown Toronto and spread out as the distance from downtown increases. This is important because while some postal codes might not have many restaurants, if the area is located near downtown, adjacent regions can heavily impact the profitability of the restaurant.
 With the resulting data, the Postal Code, Borough name, Latitude, Longitude and Density columns of each region were dropped from the dataFrame. Then, the population, area, spending power, total number of restaurants and the number of japanese restaurants were used to train a k-Means clustering algorithm with 5 clusters.
+
+ # Discussion
+Amoung 5 clusters, cluster 1 has relatively higher average household income with less restaurants around. Therefore cluster 1 was further examed regarding population, total restaurants, total Japanese restaurants and average household income.
+From the results of the clustering algorithm, it was determined that neighborhoods corresponding to cluster 1 were the best choice for opening an Japanese restaurant based on the spending power and population. This narrowed down possible locations to two different areas. Using the results in map above, Willowdale West and Hillcrest Village were eliminated due to the large number of restaurants in the area.
+
+From the two remaining regions, I would recommend that the client open his/her restaurant in either. Both regions have very few restaurants and are farther away from the downtown area. Both have a higher spending power and populatio but Willowdale region has a higher percentage of Japanese and thus the optimal region to open the Japanese Restaurant.
+
+# Conclusion
+Opening a restaurant is a complex task that can lead to a large monetary loss if not done properly. Thus, extensive research about the area would greatly increase the likelihood of the restaurant succeeding. From the project above, I demonstrated the workflow necessary for a client to determine what area the restaurant should open. For specifically, I determined that the optimal location to open an Japanese restaurant in Toronto should be in the Willowdale region. 
