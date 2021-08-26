@@ -1,2 +1,4 @@
 The project aims to explore toronot neighbourhood to find a best place to open a korean restaurant. The backgroud is to find a location with high demand of korean food, relatively low competition, and above average household income
-The data includes the toronto neighbourhood data from wikipedia, foursquare as well as toronto wellbeing data and clusting will be used to find characteristics of different neighbourhood groupd and find most situable group: high purchase power, high demand and unsaturated market.
+The data includes the toronto neighbourhood data from wikipedia, foursquare as well as toronto wellbeing data.
+clusting will be used to find characteristics of different neighbourhood groupd and find most situable group: high purchase power, high demand and unsaturated market.
+Neighbour data will be used to find locate the neighbourhood on map through folium and foursquare data is used to find all venues in each neighbourhood and toronto welling data can be used to find out the demographics of each neighbourhood and therefore to find our target customer groups
